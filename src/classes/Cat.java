@@ -11,18 +11,14 @@ public class Cat {
     public Cat(String name, String color) {
         this.name = name;
         this.color = color;
-
-        System.out.println("Конструктор с параметрами выполнился");
     }
 
     public Cat() {
-        System.out.println("Пустой конструктор выполнился");
     }
 
     {
         name = "Фишка";
         color = "Белая";
-        System.out.println("Блок инициализации выполнился");
     }
 
     @Override
