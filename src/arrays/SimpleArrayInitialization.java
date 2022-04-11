@@ -47,5 +47,8 @@ public class SimpleArrayInitialization {
         System.out.println(Arrays.equals(buf, buf1));
         System.out.println(Arrays.deepEquals(buf, buf1));
 
+
+        UnaryNumericPromotion unp = new UnaryNumericPromotion();
+        unp.privField = 1;
     }
 }
